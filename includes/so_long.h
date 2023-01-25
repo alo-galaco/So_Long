@@ -7,11 +7,10 @@
 #define HEIGHT 768
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <unistd.h>
+#include <mlx.h>
 #include "functions.h"
 #include "structs.h"
-
-#include <mlx.h>
-
 
 #endif

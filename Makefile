@@ -4,7 +4,7 @@ INCLUDES = -Iincludes
 OBJS_DIR = objects
 SRCS = main.c
 OBJS = $(addprefix objects/, $(SRCS:.c=.o))
-FLAGS = -Wall -Werror -Wextra
+FLAGS = -Wall -Werror -Wextra 
 
 CC = cc
 MLX = -lmlx -lX11 -Imlx -lXext
